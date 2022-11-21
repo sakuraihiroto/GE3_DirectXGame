@@ -17,6 +17,9 @@ public:
 	//XV
 	void Update();
 
+	//I—¹
+	void Finalize();
+
 	//getter
 	HWND GetHwnd() const { return hwnd; }
 
