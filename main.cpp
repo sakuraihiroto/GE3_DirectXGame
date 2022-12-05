@@ -9,6 +9,7 @@
 #include <wrl.h>
 #include "Input.h"
 #include "WinApp.h"
+#include "DirextXCommon.h"
 
 #pragma comment(lib, "d3d12.lib")
 #pragma comment(lib, "dxgi.lib")
