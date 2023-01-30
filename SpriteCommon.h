@@ -1,6 +1,8 @@
 #pragma once
+#include <DirectXMath.h>
 #include <d3d12.h>
 #include <wrl.h>
+
 #include "DirextXCommon.h"
 
 //スプライト共通部
@@ -19,4 +21,9 @@ private:
 	Microsoft::WRL::ComPtr<ID3D12PipelineState> pipelineState;
 
 	Microsoft::WRL::ComPtr<ID3D12RootSignature> rootSignature;
+
+	Microsoft::WRL::ComPtr<ID3D12Resource> texBuff;
+
+	Microsoft::WRL::ComPtr<ID3D12DescriptorHeap> srvHeap;
+
 };
